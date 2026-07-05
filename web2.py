@@ -12,13 +12,13 @@ import re
 api_id = 123456
 api_hash = 'your_api_hash'
 
-# Куда отправлять служебные уведомления о запуске и ошибках.
+# Кому в Telegram отправлять служебные уведомления о запуске и ошибках.
 # Можно указать как канал, так и пользователя, без @
-ADMIN_CHAT = 'notRickler'
+ADMIN_CHAT = 'username'
 
-# Канал, куда публикуются готовые алерты о листингах.
+# Канал Telegram, куда публикуются готовые алерты о листингах.
 # Можно указать как канал, так и пользователя, без @
-ALERTS_CHANNEL = 'rickler_alerts'
+ALERTS_CHANNEL = 'channel_username'
 
 launch_errors = 0
 last_id = 0
