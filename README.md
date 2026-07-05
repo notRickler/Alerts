@@ -68,6 +68,10 @@ Proxy list file.
 
 Used by the scripts for network requests through proxies.
 
+`web2.py` makes frequent requests to exchange websites and public endpoints. To reduce the risk of IP bans caused by repeated requests, it is recommended to use a proxy pool of around **100–150 proxies**.
+
+Add your proxies to `proxyS.txt`, one proxy per line.
+
 ## Requirements
 
 Install the required third-party libraries before running the scripts:
@@ -128,6 +132,10 @@ The scripts assume that supporting files such as `data.ini`, `duplicates.txt`, `
 Rickler Alerts was originally built to be fast enough for practical listing alerts, not to be an ideal software architecture example.
 
 The code uses direct parsing logic, long conditional blocks, simple text files for state, and straightforward Telegram publishing. This makes it easier to understand, but also leaves many opportunities for optimization and refactoring.
+
+### Code comments
+
+Rickler Alerts was most popular in the CIS region, so the code comments are written in Russian.
 
 ## TODO
 
